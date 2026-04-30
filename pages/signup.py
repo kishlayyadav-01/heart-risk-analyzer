@@ -2,7 +2,7 @@ import streamlit as st
 import random
 import smtplib
 from email.mime.text import MIMEText
-from database.db_connect import get_db
+from db_connect import get_db
 
 st.set_page_config(
     page_title="Create Account · CardioAI",
