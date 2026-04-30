@@ -1,5 +1,5 @@
 import streamlit as st
-from database.db_connect import get_db
+from db_connect import get_db
 
 st.set_page_config(
     page_title="Sign In · CardioAI",
